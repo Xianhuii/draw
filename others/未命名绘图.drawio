@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T06:34:21.419Z" agent="5.0 (Windows)" version="16.6.1" etag="0GegaTbpCOQoG7FaREu8" type="github"><diagram id="KTYmW4Hyp_r9bvIgH6qA">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-01T09:35:05.486Z" agent="5.0 (Windows)" etag="mDyF7TGbMm1ioIec2E2B" version="17.4.0" type="github">
+  <diagram id="KTYmW4Hyp_r9bvIgH6qA" name="第 1 页">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L8Z_ZDWHIex13AY85twY-47" value="" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=20;dashed=1;" vertex="1" parent="1">
+          <mxGeometry y="100" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="L8Z_ZDWHIex13AY85twY-31" value="提交存证需求" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="3" y="40" width="100" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="L8Z_ZDWHIex13AY85twY-37" value="提交存证需求" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" edge="1" parent="L8Z_ZDWHIex13AY85twY-31" target="L8Z_ZDWHIex13AY85twY-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="80" as="sourcePoint" />
+            <mxPoint x="210" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8Z_ZDWHIex13AY85twY-32" value="需求任务管理" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="120" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="L8Z_ZDWHIex13AY85twY-38" value="任务状态：待审核" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;" vertex="1" parent="L8Z_ZDWHIex13AY85twY-32">
+          <mxGeometry x="-20" y="120" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L8Z_ZDWHIex13AY85twY-46" value="&lt;div&gt;任务状态：已通过&lt;/div&gt;&lt;div&gt;存证状态：待处理&lt;br&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;" vertex="1" parent="L8Z_ZDWHIex13AY85twY-32">
+          <mxGeometry x="-10" y="270" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L8Z_ZDWHIex13AY85twY-39" value="存证任务管理" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="40" width="125" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="L8Z_ZDWHIex13AY85twY-48" value="任务状态：待处理" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;" vertex="1" parent="L8Z_ZDWHIex13AY85twY-39">
+          <mxGeometry x="-15" y="270" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L8Z_ZDWHIex13AY85twY-40" value="自动化任务管理" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="40" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="L8Z_ZDWHIex13AY85twY-41" value="出证任务管理" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="40" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="L8Z_ZDWHIex13AY85twY-43" value="通过" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=140;height=30;" vertex="1" parent="1">
+          <mxGeometry x="880" y="160" width="290" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="L8Z_ZDWHIex13AY85twY-45" value="" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;" vertex="1" parent="L8Z_ZDWHIex13AY85twY-43">
+          <mxGeometry y="125" width="290" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="L8Z_ZDWHIex13AY85twY-42" value="线上" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" edge="1" parent="1" target="L8Z_ZDWHIex13AY85twY-39">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="219.5" y="265" as="sourcePoint" />
+            <mxPoint x="353.5" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8Z_ZDWHIex13AY85twY-49" value="线上" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="219.5" y="408" as="sourcePoint" />
+            <mxPoint x="407" y="408" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
