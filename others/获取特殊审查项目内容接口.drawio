@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T03:18:45.741Z" agent="5.0 (Windows)" etag="7gBNc5ZCf_AE7X72tDwb" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-12T03:28:38.846Z" agent="5.0 (Windows)" etag="DbqRjlfY8vZvlOvsIeK8" version="17.4.0" type="github">
   <diagram id="kIm8Qspef-nH8YUNg8Mn" name="第 1 页">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Da2MV8Sx2bREXACUdLs0-5" value="CaseProviderClient" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="440" width="180" height="1770" as="geometry" />
+          <mxGeometry x="440" width="180" height="2180" as="geometry" />
         </mxCell>
         <mxCell id="Da2MV8Sx2bREXACUdLs0-12" value="根据caseId查找案件审查内容" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" parent="1" source="Da2MV8Sx2bREXACUdLs0-7" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -38,7 +38,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Da2MV8Sx2bREXACUdLs0-7" value="ICaseService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="678" width="220" height="1760" as="geometry" />
+          <mxGeometry x="678" width="220" height="1640" as="geometry" />
         </mxCell>
         <mxCell id="nsuiQlE-P8FL2XDOxjX3-40" value="特殊审查项目列表" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;endArrow=none;endFill=0;startArrow=block;startFill=1;dashed=1;" edge="1" parent="Da2MV8Sx2bREXACUdLs0-7" target="Da2MV8Sx2bREXACUdLs0-7">
           <mxGeometry relative="1" as="geometry">
@@ -62,7 +62,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Da2MV8Sx2bREXACUdLs0-14" value="DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="1220" width="180" height="1500" as="geometry" />
+          <mxGeometry x="1220" width="180" height="1770" as="geometry" />
         </mxCell>
         <mxCell id="Da2MV8Sx2bREXACUdLs0-17" value="根据caseId查找案件审查内容" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" parent="Da2MV8Sx2bREXACUdLs0-14" source="Da2MV8Sx2bREXACUdLs0-10" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -284,6 +284,32 @@
             <mxPoint x="528" y="1620" as="sourcePoint" />
             <mxPoint x="785.5" y="1620" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nsuiQlE-P8FL2XDOxjX3-47" value="订单App类型" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=140;height=30;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="372" y="1653" width="468" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="nsuiQlE-P8FL2XDOxjX3-48" value="蚂蚁" style="text;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="nsuiQlE-P8FL2XDOxjX3-47">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="20" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsuiQlE-P8FL2XDOxjX3-50" value="根据caseId查找电子封签列表" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="1700" as="sourcePoint" />
+            <mxPoint x="1049.5" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsuiQlE-P8FL2XDOxjX3-51" value="电子封签列表" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;endArrow=none;endFill=0;startArrow=block;startFill=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="1718.5" as="sourcePoint" />
+            <mxPoint x="1049.5" y="1718.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="871" y="1718.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsuiQlE-P8FL2XDOxjX3-52" value="根据caseId，查找电子封签列表" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="470.00307692307706" y="1699.9971866749727" width="260" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
