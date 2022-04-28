@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T09:12:42.643Z" agent="5.0 (Windows)" version="17.4.0" etag="JoU6Saj7DvPaAtoQYXEW" type="github"><diagram id="DNjs8QznCYjtxUt8rPju">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-28T10:37:48.201Z" agent="5.0 (Windows)" etag="PO5N0Ggr5_BFSp9MEeYO" version="17.4.0" type="github">
+  <diagram id="DNjs8QznCYjtxUt8rPju" name="第 1 页">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fCKu6HtFZIuGgv5Nu1-q-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry y="12" width="823" height="421" as="geometry" />
+        </mxCell>
+        <mxCell id="fCKu6HtFZIuGgv5Nu1-q-9" value="&lt;div&gt;quartz定时执行任务&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;" vertex="1" parent="fCKu6HtFZIuGgv5Nu1-q-14">
+          <mxGeometry x="6" y="137" width="220" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="fCKu6HtFZIuGgv5Nu1-q-2" value="MessagePublisher" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fCKu6HtFZIuGgv5Nu1-q-14">
+          <mxGeometry x="56" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCKu6HtFZIuGgv5Nu1-q-3" value="redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fCKu6HtFZIuGgv5Nu1-q-14">
+          <mxGeometry x="266" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCKu6HtFZIuGgv5Nu1-q-4" value="推送：jobType" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fCKu6HtFZIuGgv5Nu1-q-14" source="fCKu6HtFZIuGgv5Nu1-q-2" target="fCKu6HtFZIuGgv5Nu1-q-3">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCKu6HtFZIuGgv5Nu1-q-5" value="MessagePublisher" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fCKu6HtFZIuGgv5Nu1-q-14">
+          <mxGeometry x="436" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCKu6HtFZIuGgv5Nu1-q-6" value="监听消息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fCKu6HtFZIuGgv5Nu1-q-14" source="fCKu6HtFZIuGgv5Nu1-q-3" target="fCKu6HtFZIuGgv5Nu1-q-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCKu6HtFZIuGgv5Nu1-q-7" value="XxxTask.doXxx()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fCKu6HtFZIuGgv5Nu1-q-14">
+          <mxGeometry x="703" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCKu6HtFZIuGgv5Nu1-q-8" value="根据jobType执行任务" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fCKu6HtFZIuGgv5Nu1-q-14" source="fCKu6HtFZIuGgv5Nu1-q-5" target="fCKu6HtFZIuGgv5Nu1-q-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCKu6HtFZIuGgv5Nu1-q-10" value="方式一：消息队列执行多种任务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fCKu6HtFZIuGgv5Nu1-q-14">
+          <mxGeometry width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fCKu6HtFZIuGgv5Nu1-q-11" value="&lt;div&gt;quartz定时执行任务&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;" vertex="1" parent="fCKu6HtFZIuGgv5Nu1-q-14">
+          <mxGeometry x="216" y="318" width="220" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="fCKu6HtFZIuGgv5Nu1-q-12" value="&lt;div&gt;EvidContentExpireCheckJob&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fCKu6HtFZIuGgv5Nu1-q-14">
+          <mxGeometry x="241" y="328" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCKu6HtFZIuGgv5Nu1-q-13" value="方式二：定时执行方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fCKu6HtFZIuGgv5Nu1-q-14">
+          <mxGeometry y="278" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
