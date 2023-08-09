@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T09:52:34.588Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" version="21.6.6" etag="dia6EO5DJctUjgI7F-37" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-09T10:01:35.567Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="g2hQUBgt45Pvj-0lXu3x" version="21.6.6" type="github">
   <diagram name="第 1 页" id="ZlHpKCgeqYfUKaGOLYWE">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ParyFmxHG1jQZ8SnwoRM-3" value="设备" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="100" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ParyFmxHG1jQZ8SnwoRM-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ParyFmxHG1jQZ8SnwoRM-3">
+          <mxGeometry x="45" y="90" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ParyFmxHG1jQZ8SnwoRM-5" value="connector" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="100" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ParyFmxHG1jQZ8SnwoRM-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ParyFmxHG1jQZ8SnwoRM-5">
+          <mxGeometry x="45" y="90" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ParyFmxHG1jQZ8SnwoRM-13" value="&lt;div style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;DeviceStatusRemoteEvent&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ParyFmxHG1jQZ8SnwoRM-8" target="ParyFmxHG1jQZ8SnwoRM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ParyFmxHG1jQZ8SnwoRM-8" value="DeviceStatusChannelInboundHandler#channelRead" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="305" y="170" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ParyFmxHG1jQZ8SnwoRM-9" value="connect/disconnect" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ParyFmxHG1jQZ8SnwoRM-4" target="ParyFmxHG1jQZ8SnwoRM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ParyFmxHG1jQZ8SnwoRM-10" value="device" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="900" y="40" width="100" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ParyFmxHG1jQZ8SnwoRM-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ParyFmxHG1jQZ8SnwoRM-10">
+          <mxGeometry x="45" y="90" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ParyFmxHG1jQZ8SnwoRM-12" value="DeviceStatusRemoteEventListener#onApplicationEvent" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="797.5" y="170" width="305" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ParyFmxHG1jQZ8SnwoRM-14" value="DeviceStatusCoreControllerV2#updateStatusByNotify" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="797.5" y="230" width="305" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
