@@ -31,7 +31,7 @@
         <mxCell id="tLt2KG-wKE5PONiP59la-9" value="InitLauncher" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="827" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tLt2KG-wKE5PONiP59la-11" value="java/base/share/native/libjli/java.c#JLI_Launch()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tLt2KG-wKE5PONiP59la-11" value="java/base/unix/native/libjli/java_md_common.c#InitLauncher()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="857" y="40" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
