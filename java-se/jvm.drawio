@@ -25,7 +25,7 @@
         <mxCell id="tLt2KG-wKE5PONiP59la-6" value="JLI_launch" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="520" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tLt2KG-wKE5PONiP59la-8" value="java/base/share/native/libjli/java.c#JLI_Launch()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="tLt2KG-wKE5PONiP59la-8" value="java/base/share/native/libjli/java.c" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="550" y="40" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Qh0ZPegz-4Dvq6i9Fg19-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tLt2KG-wKE5PONiP59la-9" target="Qh0ZPegz-4Dvq6i9Fg19-1">
@@ -38,11 +38,44 @@
         <mxCell id="tLt2KG-wKE5PONiP59la-9" value="InitLauncher" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="827" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tLt2KG-wKE5PONiP59la-11" value="java/base/unix/native/libjli/java_md_common.c#InitLauncher()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="tLt2KG-wKE5PONiP59la-11" value="java/base/unix/native/libjli/java_md_common.c" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="857" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh0ZPegz-4Dvq6i9Fg19-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qh0ZPegz-4Dvq6i9Fg19-1" target="Qh0ZPegz-4Dvq6i9Fg19-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qh0ZPegz-4Dvq6i9Fg19-1" value="DumpState" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="520" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh0ZPegz-4Dvq6i9Fg19-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qh0ZPegz-4Dvq6i9Fg19-3" target="Qh0ZPegz-4Dvq6i9Fg19-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh0ZPegz-4Dvq6i9Fg19-3" value="SelectVersion" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh0ZPegz-4Dvq6i9Fg19-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qh0ZPegz-4Dvq6i9Fg19-5" target="Qh0ZPegz-4Dvq6i9Fg19-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="896.5" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="887" y="420" />
+              <mxPoint x="580" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qh0ZPegz-4Dvq6i9Fg19-5" value="CreateExecutionEnvironment" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="790.5" y="320" width="193" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh0ZPegz-4Dvq6i9Fg19-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qh0ZPegz-4Dvq6i9Fg19-9" target="Qh0ZPegz-4Dvq6i9Fg19-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh0ZPegz-4Dvq6i9Fg19-9" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh0ZPegz-4Dvq6i9Fg19-10" value="LoadJavaVM" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh0ZPegz-4Dvq6i9Fg19-12" value="java/base/unix/native/libjli/java_md.c" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="40" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
