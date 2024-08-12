@@ -140,8 +140,17 @@
         <mxCell id="fzGPynKHHogGRUGH7-Ga-8" value="JNI_CreateJavaVM" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1559" y="1020" width="130" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="fzGPynKHHogGRUGH7-Ga-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fzGPynKHHogGRUGH7-Ga-10" target="fzGPynKHHogGRUGH7-Ga-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fzGPynKHHogGRUGH7-Ga-10" value="JNI_CreateJavaVM_inner" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1539.5" y="1160" width="169" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fzGPynKHHogGRUGH7-Ga-12" value="hotspot/share/runtime/threads.cpp" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fzGPynKHHogGRUGH7-Ga-13" value="create_vm" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1845.5" y="1160" width="169" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
