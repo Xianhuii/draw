@@ -19,11 +19,20 @@
         <mxCell id="tLt2KG-wKE5PONiP59la-5" value="launcher" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="210" y="70" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="tLt2KG-wKE5PONiP59la-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tLt2KG-wKE5PONiP59la-6" target="tLt2KG-wKE5PONiP59la-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="tLt2KG-wKE5PONiP59la-6" value="JLI_launch" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="520" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tLt2KG-wKE5PONiP59la-8" value="java/base/share/native/libjli/java.c#JLI_Launch()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="550" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt2KG-wKE5PONiP59la-9" value="InitLauncher" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="827" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt2KG-wKE5PONiP59la-11" value="java/base/share/native/libjli/java.c#JLI_Launch()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="857" y="40" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
