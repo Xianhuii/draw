@@ -178,8 +178,23 @@
         <mxCell id="fzGPynKHHogGRUGH7-Ga-19" value="jni_CallStaticVoidMethod" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1536.5" y="1450" width="175" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="fzGPynKHHogGRUGH7-Ga-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fzGPynKHHogGRUGH7-Ga-21" target="fzGPynKHHogGRUGH7-Ga-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fzGPynKHHogGRUGH7-Ga-21" value="jni_invoke_static" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1536.5" y="1590" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fzGPynKHHogGRUGH7-Ga-23" value="hotspot/share/runtime/javaCalls.cpp" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fzGPynKHHogGRUGH7-Ga-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fzGPynKHHogGRUGH7-Ga-24" target="fzGPynKHHogGRUGH7-Ga-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fzGPynKHHogGRUGH7-Ga-24" value="JavaCalls:call" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2152.5" y="1590" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fzGPynKHHogGRUGH7-Ga-26" value="JavaCalls:call_helper" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2152.5" y="1730" width="175" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
