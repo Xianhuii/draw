@@ -71,11 +71,39 @@
         <mxCell id="Qh0ZPegz-4Dvq6i9Fg19-9" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="520" y="460" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Qh0ZPegz-4Dvq6i9Fg19-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qh0ZPegz-4Dvq6i9Fg19-10" target="Qh0ZPegz-4Dvq6i9Fg19-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="560" />
+              <mxPoint x="580" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Qh0ZPegz-4Dvq6i9Fg19-10" value="LoadJavaVM" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1210" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Qh0ZPegz-4Dvq6i9Fg19-12" value="java/base/unix/native/libjli/java_md.c" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1240" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh0ZPegz-4Dvq6i9Fg19-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qh0ZPegz-4Dvq6i9Fg19-13" target="Qh0ZPegz-4Dvq6i9Fg19-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh0ZPegz-4Dvq6i9Fg19-13" value="ParseArguments" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh0ZPegz-4Dvq6i9Fg19-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qh0ZPegz-4Dvq6i9Fg19-15" target="Qh0ZPegz-4Dvq6i9Fg19-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="700" />
+              <mxPoint x="580" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qh0ZPegz-4Dvq6i9Fg19-15" value="JVMInit" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh0ZPegz-4Dvq6i9Fg19-17" value="ContinueInNewThread" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="515" y="740" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
